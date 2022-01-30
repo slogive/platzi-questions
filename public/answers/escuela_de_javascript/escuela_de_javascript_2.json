@@ -1,0 +1,326 @@
+{
+  "questions": [
+    {
+      "question": "<p>¿Qué <em>queue</em> tiene mayor prioridad?</p>\n",
+      "correct": true,
+      "answer": "MicroTasks",
+      "materialInfo": {
+        "id": 22169,
+        "courseId": 1642,
+        "name": "Event Loop",
+        "url": "/clases/1642-javascript-profesional/22169-event-loop/"
+      }
+    },
+    {
+      "question": "<p>¿Con qué <em>keyword</em> un generator puede detener su ejecución?</p>\n",
+      "correct": true,
+      "answer": "yield",
+      "materialInfo": {
+        "id": 22173,
+        "courseId": 1642,
+        "name": "Generators",
+        "url": "/clases/1642-javascript-profesional/22173-generators/"
+      }
+    },
+    {
+      "question": "¿Cómo pasamos los argumentos a una función utilizando bind?",
+      "correct": false,
+      "answer": "<p>Con un arreglo donde cada argumento es un elemento.</p>\n",
+      "materialInfo": {
+        "id": 22163,
+        "courseId": 1642,
+        "name": "Los métodos call, apply y bind",
+        "url": "/clases/1642-javascript-profesional/22163-los-metodos-call-apply-y-bind/"
+      }
+    },
+    {
+      "question": "¿Se puede usar la palabra reservada \"await\" en cualquier sitio?",
+      "correct": true,
+      "answer": "No, solo en funciones declaradas con async",
+      "materialInfo": {
+        "id": 25192,
+        "courseId": 1759,
+        "name": "Async/await",
+        "url": "/clases/1759-fundamentos-node/25192-asyncawait/"
+      }
+    },
+    {
+      "question": "¿Cómo indentamos un nivel los logs de consola?",
+      "correct": true,
+      "answer": "console.group",
+      "materialInfo": {
+        "id": 25197,
+        "courseId": 1759,
+        "name": "Console",
+        "url": "/clases/1759-fundamentos-node/25197-console/"
+      }
+    },
+    {
+      "question": "¿En qué lenguajes se pueden desarrollar módulos nativos para NodeJS?",
+      "correct": false,
+      "answer": "Sólo en C++",
+      "materialInfo": {
+        "id": 25201,
+        "courseId": 1759,
+        "name": "Módulos nativos en C++",
+        "url": "/clases/1759-fundamentos-node/25201-modulos-nativos-en-c/"
+      }
+    },
+    {
+      "question": "¿Cuál es el comando para inicializar nuestro proyecto con Node.js?",
+      "correct": false,
+      "answer": "node start",
+      "materialInfo": null
+    },
+    {
+      "question": "¿En qué versión de ECMAScript fueron implementadas las Async functions?",
+      "correct": false,
+      "answer": "ES6",
+      "materialInfo": null
+    },
+    {
+      "question": "<p>¿Cómo se le conoce a la siguiente sentencia?</p>\n<pre><code><span class=\"hljs-keyword\">var</span> nombre;\n</code></pre>\n",
+      "correct": true,
+      "answer": "Declarar una variable.",
+      "materialInfo": {
+        "id": 26293,
+        "courseId": 1814,
+        "name": "Variables en JavaScript",
+        "url": "/clases/1814-basico-javascript/26293-variables/"
+      }
+    },
+    {
+      "question": "¿Qué es el hoisting en Javascript?\n",
+      "correct": true,
+      "answer": "Es cuando las declaraciones de variables y funciones se procesan antes de ejecutar cualquier código.",
+      "materialInfo": {
+        "id": 26297,
+        "courseId": 1814,
+        "name": "Hoisting",
+        "url": "/clases/1814-basico-javascript/26297-hoisting/"
+      }
+    },
+    {
+      "question": "El comando npm nos sirve para:",
+      "correct": true,
+      "answer": "Manejar paquetes para Node.js.",
+      "materialInfo": null
+    },
+    {
+      "question": "¿Con qué comando puedes instalar Webpack Dev Server?",
+      "correct": true,
+      "answer": "<p><code>npm install webpack-dev-server --save-dev</code></p>\n",
+      "materialInfo": {
+        "id": 36186,
+        "courseId": 2242,
+        "name": "Webpack Dev Server",
+        "url": "/clases/2242-webpack/36186-webpack-dev-server/"
+      }
+    },
+    {
+      "question": "¿Con qué repositorios te puedes conectar a Netlify?",
+      "correct": true,
+      "answer": "<p>Todas las respuestas son correctas</p>\n",
+      "materialInfo": null
+    },
+    {
+      "question": "<p>¿Cuál es el script adecuado que nos permitirá habilitar nuestro proyecto en un entorno de desarrollo local y no de producción?</p>\n",
+      "correct": true,
+      "answer": "<p><code>&quot;start&quot; : &quot;webpack serve&quot;</code></p>\n",
+      "materialInfo": {
+        "id": 36266,
+        "courseId": 2242,
+        "name": "Configuración de plugins y loaders para React",
+        "url": "/clases/2242-webpack/36266-configuracion-de-plugins-y-loaders-para-react/"
+      }
+    },
+    {
+      "question": "¿Cuál es la diferencia entre parámetros y argumentos?",
+      "correct": true,
+      "answer": "Las funciones reciben parámetros. Y los argumentos se envían a las funciones.",
+      "materialInfo": {
+        "id": 38660,
+        "courseId": 2327,
+        "name": "Encapsulando código en funciones",
+        "url": "/clases/2327-javascript-practico/38660-encapsulando-codigo-en-funciones/"
+      }
+    },
+    {
+      "question": "¿Para qué nos sirve el método .reduce de los arrays?",
+      "correct": true,
+      "answer": "<p>Para iterar por cada elemento de un array y dar como resultado algún valor final.</p>\n",
+      "materialInfo": {
+        "id": 38667,
+        "courseId": 2327,
+        "name": "Calculando el promedio en JavaScript",
+        "url": "/clases/2327-javascript-practico/38667-calculando-el-promedio-en-javascript/"
+      }
+    },
+    {
+      "question": "La definición de \"cascada\" significa que:",
+      "correct": true,
+      "answer": "El orden de las reglas en CSS importa.",
+      "materialInfo": {
+        "id": 40837,
+        "courseId": 2467,
+        "name": "Cascada y especificidad en CSS",
+        "url": "/clases/2467-frontend-developer/40837-cascada-y-especificidad-en-css/"
+      }
+    },
+    {
+      "question": "<p>El selector que selecciona todos los elementos &lt;span&gt; donde el padre es un elemento &lt;p&gt; es:</p>\n",
+      "correct": true,
+      "answer": "<p>p &gt; span</p>\n",
+      "materialInfo": {
+        "id": 40835,
+        "courseId": 2467,
+        "name": "Tipos de selectores: básicos y combinadores",
+        "url": "/clases/2467-frontend-developer/40835-tipos-de-selectores-basicos-y-combinadores/"
+      }
+    },
+    {
+      "question": "<p>Usamos display: grid; y place-items: center; en el elemento contenedor para:</p>\n",
+      "correct": true,
+      "answer": "<p>Centrar los elementos hijos tanto vertical como horizontalmente.</p>\n",
+      "materialInfo": {
+        "id": 41505,
+        "courseId": 2477,
+        "name": "Crear nueva contraseña: CSS",
+        "url": "/clases/2477-frontend-developer-practico/41505-crear-nueva-contrasena-css/"
+      }
+    },
+    {
+      "question": "<p>:root nos permite definir variables y usarlas mediante la función var():</p>\n",
+      "correct": true,
+      "answer": "<p>Verdadero</p>\n",
+      "materialInfo": {
+        "id": 41503,
+        "courseId": 2477,
+        "name": "Sistema de diseño, assets y variables de CSS",
+        "url": "/clases/2477-frontend-developer-practico/41503-sistema-de-diseno-assets-y-variables-de-css/"
+      }
+    },
+    {
+      "question": "¿Cómo renderizamos el componente principal de nuestra aplicación con React?",
+      "correct": true,
+      "answer": "<p><code>ReactDOM.render()</code></p>\n",
+      "materialInfo": {
+        "id": 42068,
+        "courseId": 2484,
+        "name": "Instalación de React y React DOM",
+        "url": "/clases/2484-react-practico/42068-instalacion-de-react-y-react-dom/"
+      }
+    },
+    {
+      "question": "¿Qué herramienta de React nos permite trabajar con el estado en nuestros componentes?",
+      "correct": true,
+      "answer": "React.useState",
+      "materialInfo": {
+        "id": 42078,
+        "courseId": 2484,
+        "name": "React.useState",
+        "url": "/clases/2484-react-practico/42078-reactusestate/"
+      }
+    },
+    {
+      "question": "¿Cuál es la funcionalidad de sequelize-cli ?",
+      "correct": true,
+      "answer": "Scripts para correr y manejar migraciones",
+      "materialInfo": {
+        "id": 41557,
+        "courseId": 2507,
+        "name": "Configurando y corriendo migraciones con npm scripts",
+        "url": "/clases/2507-backend-nodejs-postgres/41557-configurando-y-corriendo-migraciones-con-npm-scrip/"
+      }
+    },
+    {
+      "question": "¿Cuál es la capa que evalúa si un usuario puede o no ingresar al sistema?",
+      "correct": true,
+      "answer": "Autenticación",
+      "materialInfo": {
+        "id": 41828,
+        "courseId": 2489,
+        "name": "Autenticación vs. autorización",
+        "url": "/clases/2489-passport/41828-autenticacion-vs-autorizacion/"
+      }
+    },
+    {
+      "question": "¿Cuál es la capa que evalúa los permisos de un usuario?",
+      "correct": true,
+      "answer": "Autorización",
+      "materialInfo": {
+        "id": 41828,
+        "courseId": 2489,
+        "name": "Autenticación vs. autorización",
+        "url": "/clases/2489-passport/41828-autenticacion-vs-autorizacion/"
+      }
+    },
+    {
+      "question": "¿Cuál es la forma correcta de obtener el atributo 'api' desde los headers de una petición?",
+      "correct": true,
+      "answer": "req.headers['api']",
+      "materialInfo": {
+        "id": 41830,
+        "courseId": 2489,
+        "name": "Middleware de verificación",
+        "url": "/clases/2489-passport/41830-middleware-de-verificacion/"
+      }
+    },
+    {
+      "question": "¿Es posible saber el contenido de un JWT?",
+      "correct": true,
+      "answer": "Verdadero",
+      "materialInfo": {
+        "id": 41834,
+        "courseId": 2489,
+        "name": "¿Qué es un JWT?",
+        "url": "/clases/2489-passport/41834-que-es-un-jwt/"
+      }
+    },
+    {
+      "question": "¿Cuál middleware de Passport.js funciona verificar que cada ruta tenga un JWT válido?",
+      "correct": true,
+      "answer": "passport-jwt",
+      "materialInfo": {
+        "id": 41837,
+        "courseId": 2489,
+        "name": "Protección de rutas",
+        "url": "/clases/2489-passport/41837-proteccion-de-rutas/"
+      }
+    },
+    {
+      "question": "Si usamos Gmail para envío de correos, ¿cuál es la configuración correcta de host para Nodemail?",
+      "correct": true,
+      "answer": "smtp.gmail.com",
+      "materialInfo": {
+        "id": 41841,
+        "courseId": 2489,
+        "name": "Cómo enviar emails con Node.js",
+        "url": "/clases/2489-passport/41841-como-enviar-emails-con-nodejs/"
+      }
+    },
+    {
+      "question": "¿Cuál es el recurso asignado en jsconfig.js para manejar las rutas de nuestros archivos?",
+      "correct": true,
+      "answer": "paths",
+      "materialInfo": {
+        "id": 45094,
+        "courseId": 2690,
+        "name": "ESLint, Prettier y JSConfig con Next.js",
+        "url": "/clases/2690-nextjs-practico/45094-eslint-prettier-y-jsconfig-con-nextjs/"
+      }
+    }
+  ],
+  "courseUrl": "/",
+  "questionNumber": 30,
+  "minutes": 30,
+  "endDate": "2022-01-30T20:31:15.161558",
+  "correctAnswersToAprove": 27,
+  "badge": "https://static.platzi.com/media/learningpath/badges/a1755d74-68aa-4341-9efb-44902dda50f0.jpg",
+  "examDataName": "Escuela de JavaScript",
+  "examDataId": 100,
+  "examDataUrl": "/",
+  "examType": "learning-path",
+  "isQuiz": false,
+  "approved": false
+}

@@ -1,0 +1,151 @@
+{
+  "questions": [
+    {
+      "question": "¿Cuál de estos es el objeto que heredaran las \"instancias\" de un objeto?",
+      "correct": false,
+      "answer": "__proto__"
+    },
+    {
+      "question": "¿Cómo pasamos los argumentos a una función utilizando call?",
+      "correct": true,
+      "answer": "Separando cada argumento con una coma."
+    },
+    {
+      "question": "¿Cómo pasamos los argumentos a una función utilizando bind?",
+      "correct": false,
+      "answer": "Con un objeto donde cada key es el nombre del argumento, y el valor es el valor que queremos pasar."
+    },
+    {
+      "question": "¿La recomendación de la comunidad para anidar callbacks es?",
+      "correct": true,
+      "answer": "Un máximo de 3 callbacks "
+    },
+    {
+      "question": "<p>¿Cuál es la expresión que pausa la ejecución de la función así­ncrona y espera la resolución de la <em>promise</em>?</p>\n",
+      "correct": true,
+      "answer": "await"
+    },
+    {
+      "question": "¿Cuál es el motor de JavaScript sobre el que corre Node?",
+      "correct": true,
+      "answer": "V8"
+    },
+    {
+      "question": "¿Podemos acceder a la memoria disponible y total del sistema operativo desde NodeJS?",
+      "correct": true,
+      "answer": "Si, con el módulo OS"
+    },
+    {
+      "question": "En un callback, ¿cuál debería ser el primer parámetro?",
+      "correct": true,
+      "answer": "El error"
+    },
+    {
+      "question": "¿Una variable asignada con \"let\" solo está disponible dentro del scope donde es definida?",
+      "correct": true,
+      "answer": "Verdadero"
+    },
+    {
+      "question": "¿Qué es Windows Subsystem for Linux?",
+      "correct": true,
+      "answer": "El sistema de Microsoft capaz de correr el Kernel completo de Linux en Windows, permitiéndonos correr diversas distribuciones de Linux de Software Libre como Ubuntu."
+    },
+    {
+      "question": "¿Debemos usar expresiones regulares para definir la extensión de los archivos que afectarán nuestros loaders?",
+      "correct": true,
+      "answer": "Verdadero"
+    },
+    {
+      "question": "¿Cuál es la expresión regular para que Webpack transpile nuestros archivos .css y .styl con su loader correspondiente?",
+      "correct": true,
+      "answer": "/\\.css|.styl$/"
+    },
+    {
+      "question": "¿Qué significa \"deploy\" o \"despliegue de aplicaciones\"?",
+      "correct": true,
+      "answer": "Enviar nuestro código a un servidor, exponerlo en algún puerto y enlazarlo a nuestro dominio."
+    },
+    {
+      "question": "¿Cuál método o propiedad de los arrays en JavaScript nos permite insertar un nuevo elemento al final de un array?",
+      "correct": true,
+      "answer": ".push"
+    },
+    {
+      "question": "¿Para qué nos sirven los motores de renderizado?",
+      "correct": true,
+      "answer": "Para pasar los archivos a píxeles en pantalla"
+    },
+    {
+      "question": "Las reglas de CSS que tienen menor especificidad (sin tener en cuenta el selector universal), son:",
+      "correct": true,
+      "answer": "Elementos y pseudoelementos."
+    },
+    {
+      "question": "<p>justify-content es una propiedad de los elementos:</p>\n",
+      "correct": false,
+      "answer": "<p>Hijos</p>\n"
+    },
+    {
+      "question": "<p>:root nos permite definir variables y usarlas mediante la función var():</p>\n",
+      "correct": true,
+      "answer": "<p>Verdadero</p>\n"
+    },
+    {
+      "question": "<p>.product-info div p:nth-child(1) se lee como:</p>\n",
+      "correct": true,
+      "answer": "<p>El primer hijo de tipo p que está dentro del div que está dentro de .product-info</p>\n"
+    },
+    {
+      "question": "Si nos basamos en el patrón MVC (modelo-vista-controlador), ¿de cuál se encarga React.js?",
+      "correct": true,
+      "answer": "Vista"
+    },
+    {
+      "question": "<p>¿Cómo creamos un elemento de React que se transforme en un <code>input</code> de tipo texto usando JSX?</p>\n",
+      "correct": false,
+      "answer": "<p><code>React.createComponent(&quot;input&quot;, { type: &quot;text&quot; });</code></p>\n"
+    },
+    {
+      "question": "¿Cuál es la funcionalidad de sequelize-cli ?",
+      "correct": false,
+      "answer": "Scripts para correr el linter de Sequelize"
+    },
+    {
+      "question": "¿Cuáles son los métodos que nos ofrece sequelize para expresar una relación uno a muchos?",
+      "correct": false,
+      "answer": "hasOne  y belongsTo"
+    },
+    {
+      "question": "¿Cuál es la capa que evalúa si un usuario puede o no ingresar al sistema?",
+      "correct": true,
+      "answer": "Autenticación"
+    },
+    {
+      "question": "¿Cuál es la capa que evalúa los permisos de un usuario?",
+      "correct": true,
+      "answer": "Autorización"
+    },
+    {
+      "question": "¿Cuál es el objetivo de instalar y usar Passport.js en la app?",
+      "correct": true,
+      "answer": "Nos provee una serie de middlewares para manejar la capa de autenticación."
+    },
+    {
+      "question": "¿Cuál middleware de Passport.js funciona para hacer un inicio de sesión?",
+      "correct": true,
+      "answer": "passport-local"
+    }
+  ],
+  "courseUrl": "/",
+  "questionNumber": 30,
+  "minutes": 30,
+  "endDate": "2022-01-30T16:42:26.700377",
+  "correctAnswersToAprove": 27,
+  "badge": "https://static.platzi.com/media/learningpath/badges/a1755d74-68aa-4341-9efb-44902dda50f0.jpg",
+  "examDataName": "Escuela de JavaScript",
+  "examDataId": 100,
+  "examDataUrl": "/",
+  "examType": "learning-path",
+  "isQuiz": false,
+  "approved": false
+}
